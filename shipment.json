@@ -1,0 +1,362 @@
+{
+  "owner": {
+    "company": "Door Controls USA",
+    "username": "mblackmon@doorcontrolsusa.com",
+    "name": "Michael Blackmon"
+  },
+  "cancel": {
+    "done": false,
+    "emailStatus": "sent"
+  },
+  "spotQuote": {
+    "equipmentTypes": [],
+    "recipients": []
+  },
+  "service": {
+    "serviceType": [
+      "all"
+    ],
+    "mode": [
+      "ltl"
+    ]
+  },
+  "schedulePickup": false,
+  "createBOL": true,
+  "customerRouted": false,
+  "type": "auto-rated",
+  "paymentTerms": "Third Party Prepaid",
+  "direction": "outbound",
+  "input": "web",
+  "status": "dispatched",
+  "autoTrack": true,
+  "archived": false,
+  "changedAfterDispatch": false,
+  "billToTerms": null,
+  "_id": "62f524b830723f0004fbac55",
+  "items": [
+    {
+      "declaredValue": {
+        "currency": "USD",
+        "amount": null
+      },
+      "pieces": 1,
+      "package": "Boxes",
+      "_id": "62f524b830723f0004fbac56",
+      "weight": 45,
+      "freightClass": 70,
+      "nmfc": "95170",
+      "length": 115,
+      "height": 9,
+      "width": 9,
+      "hazardous": false,
+      "nonStandard": false,
+      "description": "autoamticdoorparts&hardware",
+      "saidToContain": 1,
+      "saidToContainPackagingType": "Boxes",
+      "stackable": false,
+      "handlingUnitId": "62f524df6c7fde0004c4d531"
+    }
+  ],
+  "locs": [
+    {
+      "shipType": "business dock",
+      "country": "US",
+      "_id": "62f524df6c7fde0004c4d527",
+      "address": "321 VZ County Road 4500",
+      "city": "Ben Wheeler",
+      "state": "TX",
+      "postalCode": "75754",
+      "contactName": "michael blackmon",
+      "contactPhone": "(903) 833-5815",
+      "contactEmail": "mblackmon@doorcontrolsusa.com",
+      "company": "Door Controls USA",
+      "dockHoursStart": "8:00 AM",
+      "dockHoursEnd": "5:00 PM",
+      "timezone": "America/Chicago",
+      "lat": 32.427127,
+      "lng": -95.657554,
+      "instructions": "",
+      "accountLocation": true,
+      "addressId": "5f69ee3c499bfc0004fe80d9",
+      "locationId": "55fc5218c5ecf903003c7f17",
+      "type": "origin",
+      "referenceNumber": "882242",
+      "sendBOL": false,
+      "showName": ""
+    },
+    {
+      "shipType": "business dock",
+      "country": "US",
+      "_id": "62f524df6c7fde0004c4d528",
+      "address": "3280 E. Lincoln Hwy",
+      "city": "Chicago Heights",
+      "state": "IL",
+      "postalCode": "60411",
+      "contactName": "Olivia Navarro",
+      "contactPhone": "(708) 895-3667",
+      "contactEmail": "olivian@prewd.com",
+      "company": "Preferred Window &door",
+      "dockHoursStart": "8:00 AM",
+      "dockHoursEnd": "4:00 PM",
+      "timezone": "America/Chicago",
+      "lat": 41.507602,
+      "lng": -87.612141,
+      "instructions": "",
+      "accountLocation": false,
+      "addressId": "5835f35f1ff1281000ff45c4",
+      "type": "destination",
+      "referenceNumber": "119451CK",
+      "sendBOL": false,
+      "showName": ""
+    }
+  ],
+  "charges": [],
+  "pickupDate": "2022-08-11T12:00:00.000Z",
+  "bolFollowers": [
+    {
+      "status": "pending",
+      "_id": "62f524df6c7fde0004c4d52a",
+      "type": "origin",
+      "email": "mblackmon@doorcontrolsusa.com"
+    },
+    {
+      "status": "pending",
+      "_id": "62f524df6c7fde0004c4d52b",
+      "type": "destination",
+      "email": "olivian@prewd.com"
+    }
+  ],
+  "created": "2022-08-11T15:48:47.886Z",
+  "rates": [
+    {
+      "interline": false,
+      "daysPlus": false,
+      "rural": false,
+      "endOfDay": false,
+      "refNums": [],
+      "notes": [],
+      "guaranteed": false,
+      "expedited": false,
+      "selected": true,
+      "hidden": false,
+      "paymentTerms": "Third Party Prepaid",
+      "isTesting": false,
+      "equipmentType": "LTL",
+      "type": "auto-rated",
+      "source": "hydra",
+      "mode": "LTL",
+      "userId": null,
+      "charges": [
+        {
+          "name": "fuel",
+          "amount": 41.16,
+          "providerDetail": "fuelSurcharge"
+        },
+        {
+          "name": "linehaul",
+          "amount": 98,
+          "providerDetail": "subtotal"
+        },
+        {
+          "name": "over dimension",
+          "amount": 50,
+          "providerDetail": "Over Length Charge 8-12 feet"
+        }
+      ],
+      "terminals": [],
+      "createdDate": "2022-08-11T15:48:11.647Z",
+      "_id": "62f524bb30723f0004fbaca8",
+      "pricingMethod": "contracted",
+      "pricingType": "tariff",
+      "status": "ok",
+      "serviceType": "Standard",
+      "cubicFeet": 5.39,
+      "linearFeet": 9.58,
+      "method": "api",
+      "time": 2333,
+      "total": 189.16,
+      "days": 3,
+      "error": null,
+      "ref": "67294611",
+      "discountPercentage": 0,
+      "tariff": "ARATE     ",
+      "carrier": "Averitt Express",
+      "serviceId": "standard",
+      "carrierCode": "avrt",
+      "website": "averittexpress.com",
+      "carrierId": "5304f480259b15a35400000a",
+      "busId": "1236273",
+      "dispatchMode": "enabled",
+      "code": "avrt",
+      "formattedDeliveryDate": "",
+      "formattedServiceOption": "",
+      "serviceDescription": "Standard",
+      "formattedDays": "3",
+      "dayLabel": "days",
+      "id": "62f524bb30723f0004fbaca8"
+    }
+  ],
+  "dispatches": [
+    {
+      "carrierId": "5304f480259b15a35400000a",
+      "code": "avrt",
+      "ref1": "67294611",
+      "fvBOL": "7620639",
+      "schedulePickup": false,
+      "pickupNum": "0813657",
+      "preferredLabelSize": "4x6",
+      "preferredLabelCount": 1,
+      "mode": "iris",
+      "beta": false
+    }
+  ],
+  "invoices": [],
+  "files": [
+    {
+      "type": "customer-quote",
+      "subtype": "freightview",
+      "shared": false,
+      "internal": false,
+      "uploadDate": "2022-08-11T15:48:47.619Z",
+      "_id": "62f524df6c7fde0004c4d52d",
+      "url": "https://www.freightview.com/docs/62f524b830723f0004fbac55/customerdetail/pdf"
+    },
+    {
+      "type": "dispatch-request",
+      "subtype": "carrier",
+      "shared": false,
+      "internal": true,
+      "uploadDate": "2022-08-11T15:49:30.052Z",
+      "_id": "62f5250a56460c00048cd42a",
+      "url": "https://s3.amazonaws.com/bols.freightview.com/production/62f524b830723f0004fbac55-dispatch-request.json"
+    },
+    {
+      "type": "dispatch-response",
+      "subtype": "carrier",
+      "shared": false,
+      "internal": true,
+      "uploadDate": "2022-08-11T15:49:30.590Z",
+      "_id": "62f5250a4a2710000435be95",
+      "url": "https://s3.amazonaws.com/bols.freightview.com/production/62f524b830723f0004fbac55-dispatch-response.json"
+    }
+  ],
+  "billTo": [
+    {
+      "country": "US",
+      "_id": "57e5418bff1b850300d45687",
+      "contactEmail": "sphillips@doorcontrolsusa.com",
+      "contactName": "Scott Phillips",
+      "contactPhone": "(903) 833-5815",
+      "company": "Door Controls USA",
+      "address": "321 VZ County Road 4500",
+      "address2": "",
+      "city": "Ben Wheeler",
+      "state": "TX",
+      "postalCode": "75754"
+    }
+  ],
+  "track": [],
+  "tags": [],
+  "accountId": "55fc51b7881eee0300ffe7d6",
+  "userId": "5fd91d60869b4d0004413b4e",
+  "quotedById": "5fd91d60869b4d0004413b4e",
+  "__v": 2,
+  "selectedRate": {
+    "interline": false,
+    "daysPlus": false,
+    "rural": false,
+    "endOfDay": false,
+    "refNums": [],
+    "notes": [],
+    "guaranteed": false,
+    "expedited": false,
+    "selected": false,
+    "hidden": false,
+    "paymentTerms": "Third Party Prepaid",
+    "isTesting": false,
+    "equipmentType": "LTL",
+    "type": "auto-rated",
+    "source": "hydra",
+    "mode": "LTL",
+    "userId": null,
+    "_id": "62f524bb30723f0004fbaca8",
+    "charges": [
+      {
+        "name": "fuel",
+        "amount": 41.16,
+        "providerDetail": "fuelSurcharge"
+      },
+      {
+        "name": "linehaul",
+        "amount": 98,
+        "providerDetail": "subtotal"
+      },
+      {
+        "name": "over dimension",
+        "amount": 50,
+        "providerDetail": "Over Length Charge 8-12 feet"
+      }
+    ],
+    "terminals": [],
+    "createdDate": "2022-08-11T15:48:11.647Z",
+    "pricingMethod": "contracted",
+    "pricingType": "tariff",
+    "status": "ok",
+    "serviceType": "Standard",
+    "cubicFeet": 5.39,
+    "linearFeet": 9.58,
+    "method": "api",
+    "time": 2333,
+    "total": 189.16,
+    "days": 3,
+    "error": null,
+    "ref": "67294611",
+    "discountPercentage": 0,
+    "tariff": "ARATE     ",
+    "carrier": "Averitt Express",
+    "serviceId": "standard",
+    "carrierCode": "avrt",
+    "website": "averittexpress.com",
+    "carrierId": "5304f480259b15a35400000a",
+    "busId": "1236273",
+    "dispatchMode": "enabled"
+  },
+  "emergencyName": null,
+  "emergencyPhone": null,
+  "bolNum": "7620639",
+  "bookedById": "5fd91d60869b4d0004413b4e",
+  "updatedProNumber": "9508421246",
+  "notifications": [],
+  "source": {
+    "application": "Freightview 2",
+    "username": "kmenasco@doorcontrolsusa.com",
+    "name": "Karla Menasco",
+    "company": "Door Controls USA",
+    "state": "TX",
+    "postalCode": "75754",
+    "input": "web",
+    "rater": "v1"
+  },
+  "credentials": [
+    {
+      "paymentTerms": "Third Party Prepaid",
+      "isBeta": false,
+      "legacy": false,
+      "incognito": false,
+      "enableSpotVolumeRates": false,
+      "dontSendBusIdInSpotQuotes": false,
+      "enableDynamicRates": false,
+      "_id": "62f52cf5655f650004f89bc9",
+      "code": "avrt",
+      "carrierId": "5304f480259b15a35400000a",
+      "username": "Logistics@DCU",
+      "password": "DCU1974",
+      "apiKey": "73576f0b017a4796a987a8d44d2f1051",
+      "ref1": "1236273",
+      "ref2": "73576f0b017a4796a987a8d44d2f1051",
+      "apiKeys": [],
+      "ref3": null,
+      "overrides": {}
+    }
+  ]
+}
