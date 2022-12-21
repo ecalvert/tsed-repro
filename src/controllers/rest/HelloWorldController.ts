@@ -24,7 +24,7 @@ class StrictPageModel {
 @Controller("/hello-world")
 export class HelloWorldController {
   @Get("/bad")
-  @Returns(200, PagedModel<PeopleResponse>)
+  @Returns(200, PagedModel).Of(PeopleResponse)
   get() {
     return {
       data: [{
